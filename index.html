@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularz kontaktowy</title>
+</head>
+<body>
+
+<div id="formularz">
+  <h1> Formularz kontaktowy </h1>
+  <form action="https://formspree.io/konrad.hojda@gmail.com" method="POST">
+    <label for="name">Podaj imie</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="surname">Podaj nazwisko</label><br>
+    <input type="text" id="surname" name="surname"><br>
+    <label for="email">Podaj email</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="number">Podaj numer telefonu</label><br>
+    <input type="tel" id="number" name="number"><br><br>
+    <textarea  name="msg" id="msg" rows="8" cols="40" maxlength="1000"></textarea><br>
+    <input type="submit">
+  </form>
+
+</div>
+
+
+</body>
+</html>
